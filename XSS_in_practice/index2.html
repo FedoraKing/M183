@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+	<script>
+		document.addEventListener('keydown', (event) => {
+			word = "";
+			if(event.key != " "){
+				word += event.key;
+				
+			}
+			else{
+	  			console.log(word);
+				word = "";
+			}
+		});
+
+	</script>
+<body>
+    <form>
+        <label>Username:</label>
+        <input type="text">
+        <br/>
+        <label>Password</label>
+        <input type="password">
+        <input type="submit" >
+    </form>
+</body>
+</html>
